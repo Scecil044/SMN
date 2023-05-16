@@ -13,7 +13,6 @@
           <h1 class="text-2xl md-text-4xl text-left text-gray-900">John Doe</h1>
           <span class="text-md text-gray-900">London uk</span>
         </div>
-
         <div class="w-1/2 mt-2">
           <RouterLinkButton btnText="Edit profile" />
         </div>
