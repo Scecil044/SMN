@@ -14,16 +14,18 @@
           <span class="text-md text-gray-900">London uk</span>
         </div>
         <div class="w-1/2 mt-2">
-          <RouterLinkButton btnText="Edit profile" />
+          <RouterLinkButton btnText="Edit profile" url="edit/profile" />
         </div>
       </div>
       <ProfileInfoSection />
       <AboutSection />
     </div>
   </div>
+  <SongSection />
 </template>
 <script setup>
 import ProfileInfoSection from "@/components/partials/ProfileInfoSection.vue";
 import AboutSection from "@/components/partials/AboutSection.vue";
 import RouterLinkButton from "@/components/global/RouterLinkButton.vue";
+import SongSection from "@/components/partials/SongSection.vue";
 </script>
