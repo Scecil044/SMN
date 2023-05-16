@@ -30,6 +30,7 @@
           <button
             type="submit"
             class="block bg-green-500 text-sm text-white py-2 px-4 w-full rounded"
+            @click="login"
           >
             Register
           </button>
@@ -46,6 +47,7 @@
 </template>
 <script setup>
 import InputField from "@/components/global/InputField.vue";
+
 import { ref } from "vue";
 
 let email = ref(null);
